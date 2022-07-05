@@ -4,9 +4,10 @@ import Card from "./Card";
 const CardsContainer = ({ toggle }) => {
     return (
         <section className="price-plan-cards">
-            {pricePlans.map(plan => {
+            {pricePlans.map((plan) => {
                 return (
-                    <Card 
+                    <Card
+                        key={plan.type}
                         planType={plan.type}
                         toggleYear={toggle}
                         monthPrice={plan.monthPrice}
