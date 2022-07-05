@@ -7,10 +7,12 @@ html {
   --light-grayish-blue: hsl(234, 14%, 74%);
   --grayish-blue: hsl(233, 13%, 49%);
   --dark-grayish-blue: hsl(232, 13%, 33%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
   margin: 0;
+  background-color: var(--very-light-grayish-blue);
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;

@@ -1,8 +1,9 @@
-const CardPlan = () => {
+const CardPlan = ({ planType, monthPrice, yearPrice, toggleYear }) => {
     return (
-        <div>
-
-        </div>
+        <header className="price-plan-header">
+            <h2 className="price-plan-type">{planType}</h2>
+            <h3 className="price-plan-price">$ {toggleYear ? yearPrice : monthPrice}</h3>
+        </header>
     );
 }
 

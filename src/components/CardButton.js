@@ -1,7 +1,7 @@
-const CardButton = () => {
+const CardButton = ({ planType }) => {
     return (
-        <button>
-            
+        <button className={`price-plan-btn ${planType}-btn`}>
+            Learn More
         </button>
     );
 }
