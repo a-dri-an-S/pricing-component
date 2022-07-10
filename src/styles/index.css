@@ -13,6 +13,7 @@ html {
 body {
   margin: 0;
   background-color: var(--very-light-grayish-blue);
+  color: var(--grayish-blue);
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;

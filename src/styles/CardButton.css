@@ -1,0 +1,34 @@
+.price-plan-btn {
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.price-plan-btn:hover {
+    cursor: pointer;
+}
+
+.Basic-btn, .Master-btn {
+    color: var(--white);
+    background: linear-gradient(.37turn, var(--lg-light-purple), var(--lg-purple));
+}
+.Basic-btn:hover, .Master-btn:hover {
+    border: 1px solid var(--lg-purple);
+    color: var(--lg-purple);
+    background: var(--white);
+}
+
+
+.Professional-btn {
+    color: var(--lg-purple);
+    background-color: var(--white);
+}
+.Professional-btn:hover {
+    border: 1px solid var(--white);
+    color: var(--white);
+    background-color: var(--lg-purple);
+}

@@ -1,0 +1,21 @@
+.price-plan-card {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    padding: 30px 0px;
+    box-shadow: 0px 2px 20px 3px rgba(230, 230, 230, 0.533);
+}
+
+.Basic-card, .Master-card{
+    background-color: var(--white);
+    color: var(--dark-grayish-blue);
+}
+.Professional-card{
+    background: linear-gradient(.5turn, var(--lg-light-purple), var(--lg-purple));
+    color: var(--white);
+}

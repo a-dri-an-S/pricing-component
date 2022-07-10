@@ -1,0 +1,32 @@
+.price-plan-header {
+    margin: 0px;
+}
+
+.price-plan-type {
+    margin: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    
+}
+.Basic-type, .Master-type {
+    color: var(--grayish-blue);
+}
+.Professional-type {
+    color: var(--white);
+}
+
+.price-plan-price {
+    font-size: 74px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Basic-price, .Master-price {
+    color: var(--dark-grayish-blue);
+}
+
+.price-plan-dollar {
+    font-size: 38px;
+    margin-right: 6px;
+}

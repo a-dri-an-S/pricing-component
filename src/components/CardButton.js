@@ -1,7 +1,9 @@
+import "../styles/CardButton.css";
+
 const CardButton = ({ planType }) => {
     return (
         <button className={`price-plan-btn ${planType}-btn`}>
-            Learn More
+            LEARN MORE
         </button>
     );
 }

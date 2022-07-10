@@ -1,0 +1,19 @@
+.price-plan-info {
+    font-size: 18px;
+    font-weight: 600;
+}
+.Basic, .Master {
+    color: var(--grayish-blue)
+}
+
+.price-plan-line {
+    width: 280px;
+    border-top: .5px;
+    
+}
+.Basic-line, .Master-line {
+    color: var(--light-grayish-blue)
+}
+.Professional-line {
+    color: var(--lg-light-purple);
+}

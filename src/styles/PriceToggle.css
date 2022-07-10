@@ -1,8 +1,15 @@
+.price-toggle-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
 .price-toggle-switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin: 0px 24px;
 }
 .price-toggle-switch input{
     opacity: 0;
@@ -21,6 +28,10 @@
     -webkit-transition: .4s;
     transition: .4s;
 }
+.price-toggle-slider:hover {
+    background: var(--lg-light-purple);
+    transition: 0s;
+}
 .price-toggle-slider:before {
     position: absolute;
     border-radius: 50%;
@@ -37,4 +48,8 @@ input:checked + .price-toggle-slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+}
+.price-toggle-time {
+    color: var(--light-grayish-blue);
+    font-weight: 600;
 }

@@ -1,3 +1,26 @@
 .price-plan-main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+}
+
+.bg-top {
+  background-image: url("../assets/bg-top.svg");
+  background-size: 400px;
+  width: 200px;
+  height: 600px;
+  margin-top: -30px;
+  margin-left: 240px;
+  z-index: -1;
+}
+
+.price-plan-container {
+  margin-top: -580px;
+}
+
+.price-plan-title {
+  margin: 60px 0px 30px 0px;
 }
