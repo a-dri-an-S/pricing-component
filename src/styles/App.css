@@ -7,20 +7,52 @@
   margin: 0px 0px;
 }
 
-.bg-top {
-  background-image: url("../assets/bg-top.svg");
-  background-size: 400px;
-  width: 200px;
-  height: 600px;
-  margin-top: -30px;
-  margin-left: 240px;
-  z-index: -1;
-}
 
-.price-plan-container {
-  margin-top: -580px;
+@media only screen and (max-width: 1399px) {
+  .bg-top {
+    background-image: url("../assets/bg-top.svg");
+    background-size: 400px;
+    width: 200px;
+    height: 600px;
+    margin-top: -30px;
+    margin-left: 240px;
+    z-index: -1;
+  }
+  .price-plan-container {
+    margin-top: -580px;
+  } 
+  .price-plan-title {
+    margin: 60px 0px 30px 0px;
+  }
 }
-
-.price-plan-title {
-  margin: 60px 0px 30px 0px;
+@media only screen and (min-width: 1400px) {
+  .price-plan-main {
+    height: 100vh;
+  }
+  .bg-top {
+    background-image: url("../assets/bg-top.svg");
+    background-size: 400px;
+    width: 400px;
+    height: 702px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+  }
+  .bg-bottom {
+    background-image: url("../assets/bg-bottom.svg");
+    background-size: 400px;
+    width: 400px;
+    height: 346px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  .price-plan-container {
+    margin: 0px;
+  }
+  .price-plan-title {
+    margin: 0px 0px 30px 0px;
+  }
 }

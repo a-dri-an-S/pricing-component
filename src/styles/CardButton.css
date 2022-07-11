@@ -1,10 +1,7 @@
 .price-plan-btn {
-    width: 280px;
-    height: 50px;
     border: none;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -31,4 +28,23 @@
     border: 1px solid var(--white);
     color: var(--white);
     background-color: var(--lg-purple);
+}
+
+@media only screen and (max-width: 1399px) {
+    .price-plan-btn {
+        width: 280px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .price-plan-btn {
+        width: 320px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .Basic-btn, .Master-btn {
+        position: relative;
+        top: 18px;
+    }
 }

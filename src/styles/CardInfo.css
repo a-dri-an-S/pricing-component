@@ -1,19 +1,33 @@
 .price-plan-info {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
+    letter-spacing: .5px;
 }
 .Basic, .Master {
     color: var(--grayish-blue)
 }
-
-.price-plan-line {
-    width: 280px;
-    border-top: .5px;
-    
-}
 .Basic-line, .Master-line {
-    color: var(--light-grayish-blue)
+    color: var(--light-grayish-blue);
 }
 .Professional-line {
     color: var(--lg-light-purple);
+}
+
+@media only screen and (max-width: 1399px){
+    .price-plan-info {
+        font-size: 14px;
+    }
+    .price-plan-line {
+        width: 280px;
+        border-top: .5px;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .price-plan-info {
+        font-size: 15px;
+    }
+    .price-plan-line {
+        width: 320px;
+        border-top: .5px;
+    }
 }

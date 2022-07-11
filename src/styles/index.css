@@ -2,6 +2,7 @@
 
 html {
   --lg-light-purple: hsl(236, 72%, 79%);
+  --lg-light-purple-shadow: hsla(236, 72%, 79%, 0.314);
   --lg-purple: hsl(237, 63%, 64%);
   --very-light-grayish-blue: hsl(240, 78%, 98%);
   --light-grayish-blue: hsl(234, 14%, 74%);

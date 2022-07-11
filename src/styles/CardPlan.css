@@ -30,3 +30,10 @@
     font-size: 38px;
     margin-right: 6px;
 }
+
+@media only screen and (min-width: 1400px) {
+    .Basic-header, .Master-header {
+        position: relative;
+        bottom: 20px;
+    }
+}

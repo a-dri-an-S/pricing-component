@@ -1,5 +1,6 @@
 import { pricePlans } from "../assets/data";
 import Card from "./Card";
+import "../styles/CardsContainer.css";
 
 const CardsContainer = ({ toggle }) => {
     return (

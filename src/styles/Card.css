@@ -1,16 +1,9 @@
 .price-plan-card {
-    width: 350px;
-    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-radius: 12px;
-    margin-bottom: 40px;
-    padding: 30px 0px;
-    box-shadow: 0px 2px 20px 3px rgba(230, 230, 230, 0.533);
 }
-
 .Basic-card, .Master-card{
     background-color: var(--white);
     color: var(--dark-grayish-blue);
@@ -18,4 +11,44 @@
 .Professional-card{
     background: linear-gradient(.5turn, var(--lg-light-purple), var(--lg-purple));
     color: var(--white);
+}
+
+@media only screen and (max-width: 1399px) {
+    .price-plan-card {
+        width: 350px;
+        height: 420px;
+        margin-bottom: 40px;
+        padding: 30px 0px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 24px 1px var(--lg-light-purple-shadow);
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .price-plan-card {
+        width: 0px;
+        height: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px;
+        box-shadow: 0px 0px 40px 20px var(--lg-light-purple-shadow);
+    }
+    .Professional-card {
+        width: 400px;
+        height: 450px;
+        margin-bottom: 0px;
+        padding: 40px 0px;
+        border-radius: 12px;
+        z-index: 1;
+    }
+    .Basic-card, .Master-card {
+        width: 400px;
+        height: 390px;
+        margin-bottom: 0px;
+        padding: 40px 0px;
+    }
+    .Basic-card {
+        border-radius: 12px 0px 0px 12px;
+    }
+    .Master-card {
+        border-radius: 0px 12px 12px 0px;
+    }
 }

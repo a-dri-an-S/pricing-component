@@ -13,13 +13,14 @@ function App() {
 
   return (
     <main className="price-plan-main">
-      <div className="price-plan bg-top bg-bottom" />
+      <div className="bg-top" />
       <div className="price-plan-container">
         <h1 className="price-plan-title">Our Pricing</h1>
         <PriceToggle toggleChange={checkToggleYear}/>
         <CardsContainer 
           toggle={toggleYear}
         />
+      <div className="bg-bottom" />
       </div>
     </main>
   );
